@@ -41,8 +41,9 @@ O **Food App** é um aplicativo desenvolvido para oferecer aos usuários uma exp
 
 2. Instalar as dependência:
  ```bash
-   npm install
+   npm install ou yarn install
    ```
+    
    
 3. Iniciar App:
   ```bash
