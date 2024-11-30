@@ -1,50 +1,51 @@
-# Welcome to your Expo app 👋
+# Food App 🍔🍟
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![Banner do Food App](./assets/food-app-banner.jpg)
 
-## Get started
+O **Food App** é um aplicativo desenvolvido para oferecer aos usuários uma experiência prática e intuitiva na busca por opções de restaurantes e refeições próximas à sua localização. Com funcionalidades dinâmicas, o app apresenta comidas populares, restaurantes famosos e promoções exclusivas.
 
-1. Install dependencies
+---
 
-   ```bash
+## Funcionalidades principais 🌟
+
+- **Localização Dinâmica**: Permite que o usuário visualize as ofertas e restaurantes disponíveis na sua cidade.
+- **Banner Promocional**: Exibição de promoções e descontos destacados na interface inicial.
+- **Lista de Comidas em Alta**: Exibe opções de pratos populares, com tempo de entrega estimado, preço e avaliações.
+- **Restaurantes Populares**: Destaque para as principais marcas e franquias, como KFC e McDonald's.
+- **Avaliações e Detalhes**: Mostra informações detalhadas sobre os restaurantes e pratos, incluindo avaliação por estrelas.
+- **Interface Responsiva**: Design moderno e adaptável a diferentes dispositivos.
+
+---
+
+## Tecnologias utilizadas 🛠️
+
+- **Front-end**:
+  - [React Native](https://reactnative.dev/) para desenvolvimento mobile.
+  - [Expo](https://expo.dev/) para teste e deploy do app.
+  - [TailwindCSS](https://tailwindcss.com/) para estilização rápida e responsiva.
+
+- **Banco de Dados**:
+  - O projeto utiliza um arquivo **JSON** como banco de dados local para armazenar as informações dos restaurantes, pratos e avaliações. Isso simplifica o gerenciamento dos dados para fins de prototipação e desenvolvimento inicial.
+
+- **APIs**:
+  - Geolocalização para detecção do local do usuário.
+  - Integração com serviços de terceiros para avaliações e imagens dos pratos.
+
+---
+
+1. Clone este repositório:
+```bash
+   git clone https://github.com/seuusuario/food-app.git
+   cd food-app
+  ```
+
+2. Instalar as dependência:
+ ```bash
    npm install
    ```
-
-2. Start the app
-
-   ```bash
+   
+3. Iniciar App:
+  ```bash
     npx expo start
    ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   
