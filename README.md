@@ -1,6 +1,6 @@
 # Food App 🍔🍟
 
-![Banner do Food App](./assets/food-app-banner.jpg)
+![Banner do Food App](src/assets/food-app-banner.jpg)
 
 O **Food App** é um aplicativo desenvolvido para oferecer aos usuários uma experiência prática e intuitiva na busca por opções de restaurantes e refeições próximas à sua localização. Com funcionalidades dinâmicas, o app apresenta comidas populares, restaurantes famosos e promoções exclusivas.
 
