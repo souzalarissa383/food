@@ -35,7 +35,7 @@ O **Food App** é um aplicativo desenvolvido para oferecer aos usuários uma exp
 
 1. Clone este repositório:
 ```bash
-   git clone https://github.com/seuusuario/food-app.git
+   git clone https://github.com/souzalarissa383/food-app
    cd food-app
   ```
 
